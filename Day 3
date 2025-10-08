@@ -1,0 +1,67 @@
+1.Prime or not
+
+import java.util.*;
+class Main {
+   public static void main(String[] args) {
+        Scanner o = new Scanner(System.in);
+     int  a = o.nextInt();
+ int c = 0;
+     for(int i=1;i<=a;i++){
+            if(a%i==0){
+    c++;
+     }}
+System.out.println((count==2)?"prime":"not prime");
+
+
+2.Factorial
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int n1= sc.nextInt();
+      int n2=1;
+      for(int i=1;i<=n1;i++){
+        n2=n2*i;
+      }
+      System.out.println(n2);
+  }
+}
+
+3.Sum of Digits
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner o = new Scanner(System.in);
+      int n=o.nextInt();
+      int sum=0;
+      while(n>0){
+        int d=n%10;
+        sum+=d;
+        n=n / 10;
+      }
+      System.out.println(sum);
+  }
+}
+
+4.Reverse the number
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner o = new Scanner(System.in);
+      int n = o.nextInt();
+      int d,rev=0;
+      while(n>0) {
+         d = n%10;
+        rev=rev*10+d;
+        n=n/10;
+      }
+      System.out.println(rev);
+  }
+}
+
